@@ -10,7 +10,7 @@ The above is using the first header text. It's the same as using an H1 in html f
 
 Alternatively you may use the html syntax
 
-<h1>This is an H1 using the html tags<h1>
+<h1>This is an H1 using the html tags</h1>
 
 For the body, you can just type normally in a new line or use the html p tag
 
