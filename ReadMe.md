@@ -22,7 +22,8 @@ For the intalics, use a single `*`. *this should be in italics.* you may also us
 
 Use three of either `*` or `_` to do both italics and bold. ***This should be both in italics and bold***
 
-to use blockquotes use the `>` symbol and can be used to nest them by multiples 
+to use blockquotes use the `>` symbol and can be used to nest them by adding more of the symbols
+`use > in the first line and use >> for the second line` 
 > this is a block quote
 >> this is inside a block quote
 
