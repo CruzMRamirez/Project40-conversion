@@ -1,6 +1,20 @@
-This is the read me file for Project40 conversion
+# The purpose
+This project is about converting an html5 template into a full functional wordpress template. This project should contain only Bootstrap, Jquery, and the starting files for Project Forty. Upon pulling this project, the user should attempt to convert it into a wordpress template.
 
-# Read Me 
+## For developers
+Use this naming convention for the branches.
+> initials-issueNumber-issueTitle or issueDescription
+For example, John doe is going to take issue 23 which is called Footer Positioning
+> jd-023-footerPositioning
+
+
+
+
+
+
+
+
+# Guide to creating a Read.md file 
 The above is using the first header text. It's the same as using an H1 in html format. To use it, use the # sign to determine the header type. For Example: `# This is an H1`
 ## This is an H2
 ### This is an H3
