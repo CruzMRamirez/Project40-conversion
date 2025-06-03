@@ -4,7 +4,7 @@ This project is about converting an html5 template into a full functional wordpr
 
 ## Creating Branches
 ***
-Respect the Master Branch or the Main Branch. In no situation should you push to the Main/Master branch nor should you push to the Development Branch. Create a branch and then create a pull request for the branch once the work is done.
+Respect the Master Branch or the Main Branch and the Development Branch. In no situation should you push to the Main/Master branch, nor should you push to the Development Branch. Create a branch for your work and then create a pull request for the branch once the work is done. Checkout out Issue #1 for an example of how an issue should look. Checkout pull request #2 for an example of how a pull request should look.
 
 ### Use this naming convention for the branches.
 
@@ -18,6 +18,7 @@ For example, John doe is going to take issue 23 which is called Footer Positioni
 ***
 In order to create issues make sure to have the following information. Not all information will be necessary.
 
+- Description of the Issue
 - Expected Behavior
 - Actual Behavior
 - Steps to reproduce the problem
