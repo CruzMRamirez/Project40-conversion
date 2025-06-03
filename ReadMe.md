@@ -33,6 +33,8 @@ In order to create issues make sure to have the following information. Not all i
     - System specifications
         - Mac/Android/Windows
         - Version number
+- Issue Image
+    - add a picture if it's available
 
  **Make sure to add a tag!** When creating an issue add an appropriate tag. 
  
@@ -46,3 +48,4 @@ In order to create a pull request make sure to have the following information.
 - Testing
 - References
     - Issue Number 
+- Images Before & After
