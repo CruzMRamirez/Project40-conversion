@@ -3,8 +3,11 @@ This project is about converting an html5 template into a full functional wordpr
 
 ## For developers
 Use this naming convention for the branches.
+
 > initials-issueNumber-issueTitle or issueDescription
+
 For example, John doe is going to take issue 23 which is called Footer Positioning
+
 > jd-023-footerPositioning
 
 
