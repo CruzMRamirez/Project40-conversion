@@ -1,3 +1,7 @@
+# Ignore me
+***
+Added this section for the purposes of an example pull request
+
 # The Purpose
 ***
 This project is about converting an html5 template into a full functional wordpress template. This project should contain only Bootstrap, Jquery, and the starting files for Project Forty. Upon pulling this project, the user should attempt to convert it into a wordpress template.
