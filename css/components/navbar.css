@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background: #242943;
+    position: absolute;
+    top: 0%;
+    padding: 2vh;
+    width: 100%;
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    width: max-content !important;
+    padding: 5px;
+}
+nav .logo span {
+    background-color: White;
+    color: #242943;
+    padding: 5px;
+}
+nav a:hover {
+    color: #9bf1ff;
+}
+nav a:hover span {
+    background-color: #9bf1ff;
+    color: #242943;
+    padding: 5px;
+}
+nav a.main-menu {
+    display: flex;
+    align-self: flex-end;
+    padding: 5px;
+}
+nav a.main-menu:hover {
+    color: #9bf1ff;
+}
+nav a i {
+    margin: 4px 5px 5px 15px;
+}
