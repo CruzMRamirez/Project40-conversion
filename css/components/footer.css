@@ -1,0 +1,114 @@
+/* General Footer Styling */
+.footer {
+    background-color: #1b263b;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer .contactForm {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 35px;
+}
+
+/* Form Styling */
+.footer .form-label {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.footer .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+.footer .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Focus state for form controls */
+.footer .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Submit Button */
+.footer .btn-submit {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.footer .btn-submit:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+}
+
+/* Clear Button */
+.footer .btn-clear {
+    color: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.footer .btn-clear:hover {
+    color: rgb(70, 132, 168);
+    border-color: #fff;
+}
+
+/* Contact Information Styling */
+.footer .fa-2x {
+    font-size: 2.2em;
+}
+
+.footer h6 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem !important;
+}
+
+.footer p.text-white-50 {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Separator Line */
+.footer .border-secondary {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Social Icons */
+.footer .list-inline-item a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer .list-inline-item a:hover {
+    color: #007bff;
+}
+
+/* Copyright Text */
+.footer .small {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) { /* Styles for screens smaller than lg breakpoint */
+    .footer .col-lg-6 {
+        margin-bottom: 3rem !important; /* Add more space between form and contact info on smaller screens */
+    }
+}

@@ -4,8 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
+
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/components/footer.css">
 </head>
 <body>
+
+    <footer class="footer">
+        <div class="container pb-0">
+            <div class="row">
+                <div class="contactForm col-12 col-lg-6 py-5 border-end border-secondary">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6 mb-3 mb-md-0">
+                                <label for="name" class="form-label text-uppercase">Name</label>
+                                <input type="text" class="form-control rounded-0" id="name" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="emailForm" class="form-label text-uppercase">Email</label>
+                                <input type="email" class="form-control rounded-0" id="emailForm" placeholder="">
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <label for="message" class="form-label text-uppercase">Message</label>
+                            <textarea class="form-control rounded-0" id="message" rows="4" placeholder=""></textarea>
+                        </div>
+                        <div class="d-flex py-3 gap-3">
+                            <button type="submit" class="btn btn-light rounded-0">SEND MESSAGE</button>
+                            <button type="reset" class="btn btn-clear rounded-0">CLEAR</button>
+                        </div>
+                    </form>
+                </div>
     
+                <div class="col-12 col-lg-6">
+                    <div class="row h-100">
+                        <div class="col-12 py-5 d-flex align-items-center border-bottom border-secondary">
+                            <i class="fas fa-envelope fa-2x me-3 text-white"></i>
+                            <div>
+                                <h6 class="text-white mb-0 text-uppercase">Email</h6>
+                                <p class="text-white-50 mb-0"><u>information@untitled.tld</u></p>
+                            </div>
+                        </div>
+                        <div class="col-12 py-5 d-flex align-items-center border-bottom border-secondary">
+                            <i class="fas fa-phone fa-2x me-3 text-white"></i>
+                            <div>
+                                <h6 class="text-white mb-0 text-uppercase">Phone</h6>
+                                <p class="text-white-50 mb-0">(000) 000-0000 x12387</p>
+                            </div>
+                        </div>
+                        <div class="col-12 py-5 d-flex align-items-center">
+                            <i class="fas fa-home fa-2x me-3 text-white"></i>
+                            <div>
+                                <h6 class="text-white mb-0 text-uppercase">Address</h6>
+                                <p class="text-white-50 mb-0">1234 Somewhere Road #5432<br>Nashville, TN 00000<br>United States of America</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <hr class="border-secondary my-0">
+    
+        <div class="container py-5">
+            <div class="row d-flex flex-md-row justify-content-start align-items-center text-lg-left text-md-start">
+                <div class="col-12 col-md-auto mb-3 mb-md-0">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-3"><a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a></li>
+                        <li class="list-inline-item me-3"><a href="#" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                        <li class="list-inline-item me-3"><a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a></li>
+                        <li class="list-inline-item me-3"><a href="#" class="text-white"><i class="fab fa-github fa-lg"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-auto text-white-50 small order-md-first">
+                    © Untitled | Design: <u>HTML5 UP</u> | Demo Images: <u>Unsplash</u>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="../js/bootstrap/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
