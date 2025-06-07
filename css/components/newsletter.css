@@ -1,0 +1,34 @@
+.newsletter {
+    background-color: #242943;
+    color: #fff;
+}
+hr {
+    max-width: 200px;
+    color:#fff;
+    border-top: 2px solid white !important;
+    opacity: 1;
+}
+.newsletter {
+    padding: 5%;
+}
+
+
+
+.newsletter a.btn, .newsletter a {
+    color: white;
+}
+.newsletter a.btn:hover, .newsletter a{
+    color: #9bf1ff;
+}
+.newsletter a.btn {
+    border: 1px solid white;
+    border-radius: 0%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.newsletter a.btn i {
+    margin-left: 3px;
+}
+.newsletter a.btn:hover {
+    border-color:#9bf1ff
+}
